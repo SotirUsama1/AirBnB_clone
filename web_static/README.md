@@ -1,1 +1,1 @@
-  0web_static dir
+web_static dir
