@@ -25,7 +25,6 @@
 }
 
 .locations {
-    text-align: left;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
@@ -34,7 +33,6 @@
 }
 
 .amenities {
-    text-align: left;
     height: 100%;
     width: 25%;
     margin-left: 30px;
