@@ -11,10 +11,15 @@ class HBNBCommand(cmd.Cmd):
     Custom console class
     """
 
-
     prompt = "(hbnb) "
 
-    def do_quit(self, arg):
+    def handle_empty_line(self, line):
+        """
+        Eliminates empty lines
+        """
+        return False
+
+    def do_quit(self, line):
         """Quit command to exit the program"""
         return True
 
