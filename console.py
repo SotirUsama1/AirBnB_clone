@@ -1,6 +1,10 @@
 import cmd
 
 class HBNBCommand(cmd.Cmd):
+    """
+        This is the console for airbnb clone project
+    """
+
 
     prompt = "(hbnb) "
 
