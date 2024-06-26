@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from models.base_model import BaseModel
 import unittest
 
@@ -42,4 +43,4 @@ class TestBaseModel(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main
+    unittest.main()
